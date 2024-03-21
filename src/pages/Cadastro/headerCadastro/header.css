@@ -1,0 +1,15 @@
+.NavBar1{
+    height: 60px;
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
+}
+
+.BrandNav{
+    font-size: 25px !important;
+    margin-top: 10px;
+}
+
+.LoginNav{
+    padding-bottom: 5px;
+    font-size: 20px !important;
+}

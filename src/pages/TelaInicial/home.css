@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.divCards {
+    background: #F6F9FF;
+    height: 40vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #434343;
+
+    font-size: 16px;
+}
+
+main.cards {
+    display: flex;
+    padding: 32px;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+}
+
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16px 0;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+main.cards section.card a {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+main.cards section.card.contact a {
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+main.cards section.card.shop a {
+    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+}
+main.cards section.card.about a {
+    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+}
+main.cards section.card.road a {
+    background: linear-gradient(to right, #FE945F, rgb(220, 179, 123));
+}
+
+main.cards section.card.contact {
+    box-shadow: 20px 20px 50px -30px #DBC4FF;
+}
+main.cards section.card.shop {
+    box-shadow: 20px 20px 50px -30px #AFD6FF;
+}
+main.cards section.card.about {
+    box-shadow: 20px 20px 50px -30px #FFC1D5;
+}
+main.cards section.card.road {
+    box-shadow: 20px 20px 50px -30px #FE945F;
+}
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+
+}
+
+.loginInputSaldo {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: white;
+    border: coral 5px solid;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px;
+    width:40%;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.loginInputSaldo svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.loginInputSaldo input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color:  #e97a47;
+    border: none;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.login-eye2 {
+    align-items: center;
+    justify-content: center;
+    font-size: 30;
+    cursor: pointer;
+    margin-right: 10px;
+    color:  #e97a47;
+}
+
+.saldo,.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cifrao{
+    font-size: 20px;
+    color:  #e97a47;
+}
+
+.titulo{
+    font-size: 25px;
+    width: 65%;
+}

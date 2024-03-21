@@ -1,0 +1,87 @@
+
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://usagif.com/wp-content/uploads/gifs/raining-money-11.gif");
+    color: #29292E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+.div-formulario{
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 50px;
+    padding: 2%;
+    width: 50%;
+    height: 90%;
+    padding-left: 7%;
+}
+
+.div-formulario h1  {
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.Input {
+    display: flex;
+    align-items: center;
+    color: gray;
+    border: #1A1A1D 2px solid;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    width: 80%;
+    height: 50px;
+}
+
+.Input svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.Input input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: black;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.LabelCadastro{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.div-formulario button {
+    width: 80% !important;
+    background-color: #202024;
+    color: #EFF2F5;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px !important;
+    margin-top: 10px !important;
+    border: none;
+
+    outline-width: 0;
+}
+
+.div-formulario button:hover {
+    background-color: #121214;
+    color: #EFF2F5;  
+    cursor: pointer;
+}
